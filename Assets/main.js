@@ -8,7 +8,7 @@ let year;
 let storedDay;
 let loadedDay;
 
-const loadDay = (day) => {
+const loadDay = () => {
     //console.log('storedDay', storedDay);
     $('.container')[0].innerHTML = '';
     if(storedDay == undefined || storedDay == null) savePlanner();
@@ -155,14 +155,16 @@ const loadPreviousDay = () => {
 
 
 $(document).ready(() => {
-    
+    //when page loads, load today
     loadedDay = Luxon.now();
     day = loadedDay.day;
     month = loadedDay.month;
     year = loadedDay.year;
-    
+    //set the day to today
     storedDay = JSON.parse(localStorage.getItem(`${year}${month}${day}`));
-    loadDay();
+    //load today's schedule
+    loadDay(); 
+    //scroll to the current hour
     window.scroll(0, $('.present').offset().top - 298);
     
 });
