@@ -16,7 +16,7 @@ textarea {
 #content {
   padding-top: 180px;
   padding-bottom: 20px;
-  margin: 0vw 10vw 0vw 10vw;
+  margin: 0vw 10vw;
 }
 .headLabels {
   display: flex;
@@ -58,7 +58,11 @@ textarea {
   background-color: #acacac !important;
   color: #000000;
 }
-
+/*
+  Decided to use background colors instead of border colors...
+  After deciding to use border colors instead of background colors.
+  lol
+*/
 .past {
   /*border-color: #f44 !important;*/
   background-image: linear-gradient(#966, #f99, #966);
@@ -92,6 +96,7 @@ textarea {
   left: 5%;
   top: 40%;
 }
+
 .saveBtn {
   color: #000;
   border-right: 2px solid black;
@@ -111,6 +116,7 @@ textarea {
   cursor: pointer;
   font-size: 30px;
 }
+/* heres the freakin magic */
 .saveBtn:hover span {
   transition: border-color 0.1s ease-in;
   border-radius: 100%;
@@ -120,6 +126,7 @@ textarea {
   color: lime;
   border-color: lime;
 }
+
 .btnIcon {
   color: #000;
   user-select: none;
@@ -127,6 +134,7 @@ textarea {
   border: 1px solid rgba(0 0 0 / 0%);
   border-radius: 100%;
 }
+/* summore freakin magic */
 .btnIcon:hover {
   cursor: pointer;
   transition: border-color 0.1s ease-in;
@@ -141,3 +149,4 @@ textarea {
   bottom: 62.5%;
   position: relative;
 }
+/* ghat damn sorcery I'll tell you hwat */
