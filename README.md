@@ -50,7 +50,7 @@ This challenge is graded based on the following criteria:
 
 Satisfies all of the above acceptance criteria plus the following:
 
--[x] Uses the ~~Moment.js~~ `Luxon` library to work with date and time
+- [x] Uses the ~~Moment.js~~ `Luxon` library to work with date and time
 
 ## Deployment: 32%
 
