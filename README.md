@@ -70,7 +70,7 @@ Satisfies all of the above acceptance criteria plus the following:
 - [x] Repository has a "unique" name
 - [x] Repository follows best practices for file structure and naming conventions
 - [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-- [ ] Repository contains multiple descriptive commit messages
+- [x] Repository contains multiple descriptive commit messages
 - [x] Repository contains quality README file with description, screenshot, and link to deployed application
 
 ---
